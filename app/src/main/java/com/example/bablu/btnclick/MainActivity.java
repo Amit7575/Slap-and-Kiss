@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         //UsernameET.setText(getIntent().getExtras().getString("Username"));
         UsernameTV.setText(getIntent().getExtras().getString("Username"));
         //showDialog();
+        //test Comment
 
     }
 
