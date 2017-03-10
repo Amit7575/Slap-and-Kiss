@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BtnClick</string>
+    <string name="slapText">Slap</string>
+    <string name="kissText">Kiss</string>
+    <string name="welcome_text">Slap or Kiss who ever you want</string>
+    <string name="Username_text">Welcome to Slap Kiss</string>
+</resources>

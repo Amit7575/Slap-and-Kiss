@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/title"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Select your Zodiac"
+        />
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/title"
+        android:background="@color/colorPrimary"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="45dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioGroup
+                android:id="@+id/radiogroup"
+
+                android:layout_marginLeft="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </RadioGroup>
+        </RelativeLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:weightSum="10"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_marginRight="1dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:text="OK"
+            android:layout_height="45dp" />
+        <Button
+            android:id="@+id/close"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:layout_width="0dp"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="5"
+            android:text="CLOSE"
+            android:layout_height="45dp" />
+
+
+    </LinearLayout>
+    <!--<Button
+        android:id="@+id/bbtn"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"/>-->
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#000000</color>
+    <color name="ash">#dcdbdb</color>
+    <color name="dark_ash">#8f8e8e</color>
+    <!--<color name="green_blue">#00AD9C</color>-->
+
+    <color name="green_blue">#648CB0</color>
+    <color name="color_gradient_top">#648CB0</color>
+    <color name="color_gradient_bottom">#f294d3</color>
+    <color name="drawer_image_bg_color">#ffffff</color>
+
+    <color name="login_screen_bg">#dcdbdb</color>
+    <color name="spinner_bg_color">#f7f7f7</color>
+
+    <color name="profile_page_title_bg">#ffffff</color>
+    <color name="profile_page_title_color">#648CB0</color>
+    <color name="chat_background">#71e646</color>
+</resources>
